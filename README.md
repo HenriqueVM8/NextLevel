@@ -52,9 +52,3 @@ O **Assistente de Meta** é uma aplicação web interativa desenvolvida para aux
 - A aplicação utiliza diretrizes rigorosas para não inventar informações e sempre prioriza dados confiáveis.
 
 ---
-
-## 📷 Prévia
-
-*Adicione uma imagem ou GIF acima para demonstrar a aplicação em funcionamento.*
-
----
