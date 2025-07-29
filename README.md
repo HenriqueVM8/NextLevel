@@ -1,130 +1,60 @@
-# HTML 
-- HyperText
-    - Texto puro, livros, revistas, jornais
-    - Links: acessar outros documentos
-    - Imagens, vídeos, áudios
-- Markup
-    - Marcação
-    - Tags: <a> Link </a>
-    - Atributos: <a href="https://rocketseat.com">Rocketseat</a>
-    - Globais: id, class, ...
-- Language
-    - Linguagem
-    - Sintaxe: maneira de escrever
 
+# 🎮 Assistente de Meta - NextLevel
 
-# HTTP
-- HyperText
-- Transfer
-    - Transferência
-- Protocol
-    - Protocolo
-    - Conjunto de regras
-- Methods HTTP (verbos): Get ( pega ), Post ( envia ), Patch/Put ( ajuste/arrume uma informação ), Delete
-- Headers (cabeçalhos): Instruções/Informações extras para cada chamada
+<img src="./assets/layout.png">
+<br>
+<br>
 
+O **Assistente de Meta** é uma aplicação web interativa desenvolvida para auxiliar jogadores de *Valorant*, *League of Legends* e *Call of Duty Mobile* com estratégias, builds e dicas otimizadas com base no meta atual dos jogos. Utilizando a API do Gemini da Google, o assistente fornece respostas precisas e atualizadas com base em dados reais e patch notes recentes.
 
-# URL
-- Uniform
-    - Uniforme
-- Resource 
-    - Recurso
-- Locator
-    - Localizador
-Encontrar um recurso (html, css, js, pdf, png, ...)
-Endereço
+---
 
+## ✨ Funcionalidades
 
-# IP
-- Internet
-    - Rede mundial de computadores
-- Protocol
-    - Protocolo
-    - Conjunto de regras
-Endereço do computador
+- 📌 Escolha entre os jogos suportados: **Valorant**, **LoL** e **CoD Mobile**  
+- 🤖 Receba sugestões e dicas de gameplay baseadas no **meta atual**  
+- 🔐 Integração segura com a **API Key** da Google Gemini  
+- 🧠 Respostas inteligentes com base em *machine learning* e *pesquisa assistida*  
+- 🎨 Interface moderna, responsiva e animada para uma ótima experiência do usuário
 
+---
 
-# DNS - (Domínio)
-- Domain
-    - Domínios  
-- Name
-    - Nome
-- Server
-    - Servidor
+## 🚀 Como Funciona
 
-# CSS
-- Cascading
-    - Cascata
-    - Regras das escritas
-    - Hierarquia
-    - Especificidade (ids, class, ...)
-- Style
-    - Estilo
-- Sheet    
-    - Folha
+1. O usuário informa sua **API Key Gemini**.
+2. Escolhe o jogo de interesse.
+3. Faz uma pergunta sobre estratégia, build ou dica.
+4. O assistente envia a consulta para o Gemini, que retorna uma resposta formatada e direta ao ponto.
 
+---
 
-# JS 
-- Linguagem de Programação
-- Browser
-- Input --> Process --> Output
-- Váriaveis
-- Function
-    - Agrupamento e reuso de código
-    - Sequência lógica
-    - Saída
-- Gemini (IA): esperar uma resposta 
-- Mexer no meu navegador
-- Estrutura de dados
-- Estrutura de decisão
-- Algoritmo: Sequência de passos, lógica, de maneira ordenada, a fim de chegar a alguma conclusão (limitada)
-- Lógica (Pensamento Computacional)
-    - Abstração
-    - Decomposição
-    - Algoritmo
-    - Reconhecimento de padrão
-- Tipos de dados
-    - Number (números)
-    - String (textos) (" ", ' ', ` `)
-    - Boolean: true | false
-    - Objects
-    - ...
+## 🛠️ Tecnologias Utilizadas
 
+- **HTML5** e **CSS3** com responsividade e animações
+- **JavaScript (Vanilla)** para lógica e integração com API
+- **Showdown.js** para conversão de Markdown para HTML
+- **Google Gemini API** com suporte a ferramentas de pesquisa
 
-# DOM
-- Document 
-- Object
-- Model
+---
 
+## 📁 Estrutura do Projeto
 
-# API - (Interface onde as aplicações irão conversar)
-- Application
-- Programming
-- Interface
-- JSON: JavaScript Object Notation
+- `index.html` → Estrutura da interface  
+- `style.css` → Estilo e layout da aplicação  
+- `script.js` → Lógica, comunicação com Gemini e interações do usuário
 
+---
 
-# CDN - (Distribuição de conteúdo na rede)
-- Content
-- Delivery
-- Network
+## ⚠️ Observações Importantes
 
-# LLM
+- É necessário possuir uma **API Key válida** da **Google Gemini** para utilizar o assistente.
+- As respostas são limitadas a até **500 caracteres** para manter clareza e objetividade.
+- A aplicação utiliza diretrizes rigorosas para não inventar informações e sempre prioriza dados confiáveis.
 
-# O que é um LLM?
-- É um tipo de modelo de inteligência artificial treinado com uma enorme quantidade de textos da internet,  livros, artigos, sites e outros dados para entender e gerar linguagem humana de forma coerente e útil.
+---
 
-- Large
-- Language
-- Model
-- Gemini, OpenAI (ChatGPT), Anthropic (Claude) ...
+## 📷 Prévia
 
+*Adicione uma imagem ou GIF acima para demonstrar a aplicação em funcionamento.*
 
-# Agentes de AI
-- Tools (ferramentas): permitem uso de código, ou apps, ou qualquer informação extra. (Vai pesquisar, vai pegar a informação atual e baseado nisso vai melhorar o contexto).
-- Melhor contexto ( para onde ela está olhando ), podemos falar assim antes de uma pergunta: você é especialista em jogos por exemplo, assim ela irá focar apenas em jogos.
-
-# Engenharia de prompts
-- One shot: uma única pergunta sem muito contexto
-- Few shot: é apresentado exemplos do que se espera
-- Chain of Thought: cadeia de pensamento para a IA responder gradativamente conforme a instrução.
+---
