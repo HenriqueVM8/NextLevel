@@ -13,7 +13,6 @@ const markdownToHTML = (text) => { // Function que vai receber o texto da respos
 // Já mando a questão, game e apiKey
 const perguntarAI = async (question, game, apiKey) => {  /* async - usamos isso para falar que em algum passo dessa função vamos precisar sair da minha aplicação e ir para outra aplicação em algum lugar do mundo, esperar uma resposta e receber aqui, nesse caso GEMINI. Conversa assíncrona */
 
-    // Minha apiKey (Não mostrar para ninguém) - AIzaSyAFFBl-TBz3h05cifNeJ2JZyANq3_YAtPA
     const model = "gemini-2.5-flash";
     const geminiURL = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`; 
 
